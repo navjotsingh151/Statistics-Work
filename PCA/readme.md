@@ -9,6 +9,4 @@ Let’s say we have a data set of dimension 300 (n) × 50 (p). n represents the 
 
 In this case, it would be a lucid approach to select a subset of p (p << 50) predictor which captures as much information. Followed by plotting the observation in the resultant low dimensional space.
 
-The image below shows the transformation of a high dimensional data (3 dimension) to low dimensional data (2 dimension) using PCA. Not to forget, each resultant dimension is a linear combination of p features
-
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+The image below shows the transformation of a high dimensional data (3 dimension) to low dimensional data (2 dimension) using PCA. Not to forget, each resultant dimension is a linear combination of p features.
