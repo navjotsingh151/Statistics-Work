@@ -24,3 +24,5 @@ The image below shows the transformation of a high dimensional data (3 dimension
 8. PCA works best on data set having 3 or higher dimensions. Because, with higher dimensions, it becomes increasingly difficult to make 9. interpretations from the resultant cloud of data.
 9. PCA is applied on a data set with numeric variables.
 10. PCA is a tool which helps to produce better visualizations of high dimensional data.
+
+[More Details](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
