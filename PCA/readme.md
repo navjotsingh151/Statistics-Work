@@ -10,3 +10,17 @@ Let’s say we have a data set of dimension 300 (n) × 50 (p). n represents the 
 In this case, it would be a lucid approach to select a subset of p (p << 50) predictor which captures as much information. Followed by plotting the observation in the resultant low dimensional space.
 
 The image below shows the transformation of a high dimensional data (3 dimension) to low dimensional data (2 dimension) using PCA. Not to forget, each resultant dimension is a linear combination of p features.
+
+![](https://github.com/navjotsingh151/Statistics-Work/blob/master/PCA/PCA_image.PNG)
+
+## Points to Remember
+1. PCA is used to overcome features redundancy in a data set.
+2. These features are low dimensional in nature.
+3. These features a.k.a components are a resultant of normalized linear combination of original predictor variables.
+4. These components aim to capture as much information as possible with high explained variance.
+5. The first component has the highest variance followed by second, third and so on.
+6. The components must be uncorrelated (remember orthogonal direction ? ). See above.
+7. Normalizing data becomes extremely important when the predictors are measured in different units.
+8. PCA works best on data set having 3 or higher dimensions. Because, with higher dimensions, it becomes increasingly difficult to make 9. interpretations from the resultant cloud of data.
+9. PCA is applied on a data set with numeric variables.
+10. PCA is a tool which helps to produce better visualizations of high dimensional data.
